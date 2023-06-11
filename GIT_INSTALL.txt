@@ -1,0 +1,24 @@
+Install git- dependiendo de sistema operativo estas utilizando
+
+Comenzamos:
+#### con esta comando debemos definir un nombre de usuario########
+git config --global user.name "LuchitoVN"
+#### definimos un email #############################
+git config --global user.email   luisvilcatoma.08@gmail.com
+####  definimos que editor utilizaremos en este caso code visual studio######
+git config --global core.editor "code --wait"
+#### abrir el editor #########
+git config --global -e 
+
+### con esta funcion se configura que sistema operativo estamos utilizando
+### para poder subir nuestro code al servidor github
+#  window ----- CR ---- true
+# linux/mac ---- LF ---- input
+
+git config --global core.autocrlf input
+
+
+### git help
+## listado de toda las configuraciones que podamos utilizar en git
+git config -h
+
