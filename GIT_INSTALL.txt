@@ -2,7 +2,7 @@ Install git- dependiendo de sistema operativo estas utilizando
 
 Comenzamos:
 #### con esta comando debemos definir un nombre de usuario########
-git config --global user.name "LuchitoVN"
+git config --global user.name "Vilcatoma08"
 #### definimos un email #############################
 git config --global user.email   luisvilcatoma.08@gmail.com
 ####  definimos que editor utilizaremos en este caso code visual studio######
